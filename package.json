@@ -4,7 +4,7 @@
   "description": "Line breaks formatter",
   "main": "index.js",
   "scripts": {
-    "clean": "rimraf dist",
+    "clean": "rimraf docs",
     "stats": "npm run clean && webpack --env production --profile --json > stats.json",
     "start": "webpack-dev-server --progress --colors --env development",
     "build": "npm run clean && webpack --env production"

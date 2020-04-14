@@ -7,7 +7,7 @@ const parts = require('./webpack.parts');
 
 const PATHS = {
     app: path.join(__dirname, 'app'),
-    build: path.join(__dirname, 'dist'),
+    build: path.join(__dirname, 'docs'),
     stylePath:path.join(path.resolve(__dirname),'app','style')
 };
 const commonConfig = merge([
