@@ -10,8 +10,8 @@ leftField.addEventListener('keydown', checkEnter);
 
 function convert() {
   const leftText = leftField.value || "";
-  
-  rightField.value = leftText.replace(/(\r\n|\n|\r)/gm, "");
+  const formattedText = leftText.replace(/(\s\r\n|\s\n|\s\r)/gm, "\n");
+  rightField.value = formattedText.replace(/(\n)/gm, " ");
 }
 
 function checkEnter(e) {
