@@ -1,2 +1,0 @@
-webpackJsonp([1],[function(){},function(){},function(a,b,c){'use strict';function d(){var a=f.value||'',b=a.replace(/(\s\r\n|\s\n|\s\r)/gm,'\n');g.value=b.replace(/(\n)/gm,' ')}c(1),c(0);var e=document.querySelector('#convertButton'),f=document.getElementById('left-text'),g=document.getElementById('right-text');e.addEventListener('click',d),f.addEventListener('keydown',function(a){a.ctrlKey&&13===a.keyCode&&d()})}],[2]);
-//# sourceMappingURL=app.fb152a55.js.map
