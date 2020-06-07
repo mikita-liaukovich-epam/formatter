@@ -14,8 +14,7 @@ function convert() {
   rightField.value = "";
   rightField.value = formattedText.replace(/(\n)/gm, " ");
 
-  rightField.select();
-  document.execCommand("copy");
+  navigator.clipboard.writeText(rightField.value);
   leftField.select();
 }
 
